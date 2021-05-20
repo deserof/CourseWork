@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Services">
+      <UniqueIdentifier>{05aaf679-287b-449f-8063-242ada1f60b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Domains">
+      <UniqueIdentifier>{d66b6c78-838c-48dc-bbde-f5d13aec965b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Storages">
+      <UniqueIdentifier>{ef8100f7-5fb9-45a7-83c2-d03ee1987387}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Enums">
+      <UniqueIdentifier>{1686e6cd-72b6-4dc5-9184-452c371b4989}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Cpps">
+      <UniqueIdentifier>{8d0f596d-d3ee-45f3-9e2a-0c9d2454588e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CourseWork.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Person.cpp">
+      <Filter>Исходные файлы\Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="Employee.cpp">
+      <Filter>Исходные файлы\Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="Date.cpp">
+      <Filter>Исходные файлы\Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="Account.cpp">
+      <Filter>Исходные файлы\Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="FileService.cpp">
+      <Filter>Исходные файлы\Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleService.cpp">
+      <Filter>Исходные файлы\Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="SortService.cpp">
+      <Filter>Исходные файлы\Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="StorageService.cpp">
+      <Filter>Исходные файлы\Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewService.cpp">
+      <Filter>Исходные файлы\Cpps</Filter>
+    </ClCompile>
+    <ClCompile Include="Storage.cpp">
+      <Filter>Исходные файлы\Storages</Filter>
+    </ClCompile>
+    <ClCompile Include="EmployeeType.cpp">
+      <Filter>Исходные файлы\Cpps</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Menu.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleService.h">
+      <Filter>Исходные файлы\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="FileService.h">
+      <Filter>Исходные файлы\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="SortService.h">
+      <Filter>Исходные файлы\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="StorageService.h">
+      <Filter>Исходные файлы\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewService.h">
+      <Filter>Исходные файлы\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="Account.h">
+      <Filter>Исходные файлы\Domains</Filter>
+    </ClInclude>
+    <ClInclude Include="Person.h">
+      <Filter>Исходные файлы\Domains</Filter>
+    </ClInclude>
+    <ClInclude Include="Employee.h">
+      <Filter>Исходные файлы\Domains</Filter>
+    </ClInclude>
+    <ClInclude Include="Date.h">
+      <Filter>Исходные файлы\Domains</Filter>
+    </ClInclude>
+    <ClInclude Include="Storage.h">
+      <Filter>Исходные файлы\Storages</Filter>
+    </ClInclude>
+    <ClInclude Include="EmployeeType.h">
+      <Filter>Исходные файлы\Enums</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -37,10 +37,10 @@ private:
 public:
 	void AddAccount()
 	{
-		Date date;
-		date.SetDate();
 		Employee employee;
 		employee.SetEmployee();
+		Date date;
+		date.SetDate();
 		Account account;
 		account.SetAccount(date, employee);
 		Storage::accounts.push_back(account);

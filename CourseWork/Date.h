@@ -156,11 +156,11 @@ public:
 	void SetDate()
 	{
 		int yy, mm, dd;
-		ConsoleService::Write("¬ведите год:\n");
+		ConsoleService::Write("¬ведите год: ");
 		year = GetInputYear();
-		ConsoleService::Write("¬ведите мес€ц:\n");
+		ConsoleService::Write("¬ведите мес€ц: ");
 		month = GetInputMonth();
-		ConsoleService::Write("¬ведите день:\n");
+		ConsoleService::Write("¬ведите день: ");
 		day = GetInputDay();
 		convDate = year * 365 + month * 31 + day;
 	}

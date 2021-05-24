@@ -4,8 +4,6 @@
 #include "ViewService.h"
 class SortService
 {
-private:
-	vector<Account> medCopy;
 public:
 	void SortAccountsDescending()
 	{

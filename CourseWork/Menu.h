@@ -24,9 +24,9 @@ public:
 		{
 			ConsoleService::Write("1. Добавить запись\n");
 			ConsoleService::Write("2. Показать записи\n");
-			ConsoleService::Write("3. Чтение из файла\n");
-			ConsoleService::Write("4. Сортировка записей\n");
-			ConsoleService::Write("5. Удаление приема\n");
+			ConsoleService::Write("3. Прочитать файл\n");
+			ConsoleService::Write("4. Сортировать записи\n");
+			ConsoleService::Write("5. Удалить запись\n");
 			ConsoleService::Write("6. Сохранить файл\n");
 			ConsoleService::Write("7. Выход\n");
 			int menuNumber = GetInput();

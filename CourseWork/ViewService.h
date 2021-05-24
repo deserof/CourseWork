@@ -1,6 +1,7 @@
 #pragma once
 #include "Storage.h"
 #include "ConsoleService.h"
+#include "EmployeeType.h"
 
 using namespace std;
 
@@ -13,6 +14,27 @@ public:
 		for (int i = 0; i < Storage::accounts.size(); i++)
 		{
 			ConsoleService::Write("Id: " + to_string(i) + "\n");
+			ConsoleService::Write("Должность: ");
+
+			switch (Storage::accounts[i].GetEmployee().GetEmployeeType()) {
+			case EmployeeType::Director: {
+				ConsoleService::Write("Директор");
+				break;
+			}
+			case EmployeeType::Accountant: {
+				ConsoleService::Write("Бухгалтер");
+				break;
+			}
+			case EmployeeType::Labourer: {
+				ConsoleService::Write("Наемный рабочий");
+				break;
+			}
+			case EmployeeType::Cleaner: {
+				ConsoleService::Write("Уборщик");
+				break;
+			}
+			}
+
 			ConsoleService::Write("Имя сотрудника: " + Storage::accounts[i].GetEmployee().GetFirtsName() + "\n");
 			ConsoleService::Write("Фамилия сотрудника: " + Storage::accounts[i].GetEmployee().GetLastName() + "\n");
 			ConsoleService::Write("Отчество сотрудника: " + Storage::accounts[i].GetEmployee().GetMiddleName() + "\n");
@@ -41,6 +63,27 @@ public:
 			if (firstName == Storage::accounts[i].GetEmployee().GetFirtsName() && lastName == Storage::accounts[i].GetEmployee().GetLastName())
 			{
 				ConsoleService::Write("Id: " + to_string(i) + "\n");
+				ConsoleService::Write("Должность: ");
+
+				switch (Storage::accounts[i].GetEmployee().GetEmployeeType()) {
+				case EmployeeType::Director: {
+					ConsoleService::Write("Директор");
+					break;
+				}
+				case EmployeeType::Accountant: {
+					ConsoleService::Write("Бухгалтер");
+					break;
+				}
+				case EmployeeType::Labourer: {
+					ConsoleService::Write("Наемный рабочий");
+					break;
+				}
+				case EmployeeType::Cleaner: {
+					ConsoleService::Write("Уборщик");
+					break;
+				}
+				}
+
 				ConsoleService::Write("Имя сотрудника: " + Storage::accounts[i].GetEmployee().GetFirtsName() + "\n");
 				ConsoleService::Write("Фамилия сотрудника: " + Storage::accounts[i].GetEmployee().GetLastName() + "\n");
 				ConsoleService::Write("Отчество сотрудника: " + Storage::accounts[i].GetEmployee().GetMiddleName() + "\n");
@@ -81,6 +124,27 @@ public:
 				&& Storage::accounts[i].GetDate().GetDay() == dd)
 			{
 				ConsoleService::Write("Id: " + to_string(i) + "\n");
+				ConsoleService::Write("Должность: ");
+
+				switch (Storage::accounts[i].GetEmployee().GetEmployeeType()) {
+				case EmployeeType::Director: {
+					ConsoleService::Write("Директор\n");
+					break;
+				}
+				case EmployeeType::Accountant: {
+					ConsoleService::Write("Бухгалтер\n");
+					break;
+				}
+				case EmployeeType::Labourer: {
+					ConsoleService::Write("Наемный рабочий\n");
+					break;
+				}
+				case EmployeeType::Cleaner: {
+					ConsoleService::Write("Уборщик\n");
+					break;
+				}
+				}
+
 				ConsoleService::Write("Имя сотрудника: " + Storage::accounts[i].GetEmployee().GetFirtsName() + "\n");
 				ConsoleService::Write("Фамилия сотрудника: " + Storage::accounts[i].GetEmployee().GetLastName() + "\n");
 				ConsoleService::Write("Отчество сотрудника: " + Storage::accounts[i].GetEmployee().GetMiddleName() + "\n");
@@ -106,6 +170,27 @@ public:
 		for (int i = 0; i < accounts.size(); i++)
 		{
 			ConsoleService::Write("Id: " + to_string(i) + "\n");
+			ConsoleService::Write("Должность: ");
+
+			switch (Storage::accounts[i].GetEmployee().GetEmployeeType()) {
+			case EmployeeType::Director: {
+				ConsoleService::Write("Директор");
+				break;
+			}
+			case EmployeeType::Accountant: {
+				ConsoleService::Write("Бухгалтер");
+				break;
+			}
+			case EmployeeType::Labourer: {
+				ConsoleService::Write("Наемный рабочий");
+				break;
+			}
+			case EmployeeType::Cleaner: {
+				ConsoleService::Write("Уборщик");
+				break;
+			}
+			}
+
 			ConsoleService::Write("Имя сотрудника: " + accounts[i].GetEmployee().GetFirtsName() + "\n");
 			ConsoleService::Write("Фамилия сотрудника: " + accounts[i].GetEmployee().GetLastName() + "\n");
 			ConsoleService::Write("Отчество сотрудника: " + accounts[i].GetEmployee().GetMiddleName() + "\n");

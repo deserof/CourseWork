@@ -18,7 +18,7 @@ private:
 	int salary;
 	EmployeeType employeeType;
 	static constexpr float INCOME_TAX = 0.12f;
-	static constexpr int FULL_WORKING_HOURS = 144;
+	// static constexpr int FULL_WORKING_HOURS = 144;
 
 	int GetInput()
 	{

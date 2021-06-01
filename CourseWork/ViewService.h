@@ -35,7 +35,7 @@ public:
 			}
 			}
 
-			ConsoleService::Write("Имя сотрудника: " + Storage::accounts[i].GetEmployee().GetFirtsName() + "\n");
+			ConsoleService::Write("\nИмя сотрудника: " + Storage::accounts[i].GetEmployee().GetFirtsName() + "\n");
 			ConsoleService::Write("Фамилия сотрудника: " + Storage::accounts[i].GetEmployee().GetLastName() + "\n");
 			ConsoleService::Write("Отчество сотрудника: " + Storage::accounts[i].GetEmployee().GetMiddleName() + "\n");
 			ConsoleService::Write("Адрес сотрудника: " + Storage::accounts[i].GetEmployee().GetAddress() + "\n");
@@ -84,7 +84,7 @@ public:
 				}
 				}
 
-				ConsoleService::Write("Имя сотрудника: " + Storage::accounts[i].GetEmployee().GetFirtsName() + "\n");
+				ConsoleService::Write("\nИмя сотрудника: " + Storage::accounts[i].GetEmployee().GetFirtsName() + "\n");
 				ConsoleService::Write("Фамилия сотрудника: " + Storage::accounts[i].GetEmployee().GetLastName() + "\n");
 				ConsoleService::Write("Отчество сотрудника: " + Storage::accounts[i].GetEmployee().GetMiddleName() + "\n");
 				ConsoleService::Write("Адрес сотрудника: " + Storage::accounts[i].GetEmployee().GetAddress() + "\n");
@@ -145,7 +145,7 @@ public:
 				}
 				}
 
-				ConsoleService::Write("Имя сотрудника: " + Storage::accounts[i].GetEmployee().GetFirtsName() + "\n");
+				ConsoleService::Write("\nИмя сотрудника: " + Storage::accounts[i].GetEmployee().GetFirtsName() + "\n");
 				ConsoleService::Write("Фамилия сотрудника: " + Storage::accounts[i].GetEmployee().GetLastName() + "\n");
 				ConsoleService::Write("Отчество сотрудника: " + Storage::accounts[i].GetEmployee().GetMiddleName() + "\n");
 				ConsoleService::Write("Адрес сотрудника: " + Storage::accounts[i].GetEmployee().GetAddress() + "\n");
@@ -191,7 +191,7 @@ public:
 			}
 			}
 
-			ConsoleService::Write("Имя сотрудника: " + accounts[i].GetEmployee().GetFirtsName() + "\n");
+			ConsoleService::Write("\nИмя сотрудника: " + accounts[i].GetEmployee().GetFirtsName() + "\n");
 			ConsoleService::Write("Фамилия сотрудника: " + accounts[i].GetEmployee().GetLastName() + "\n");
 			ConsoleService::Write("Отчество сотрудника: " + accounts[i].GetEmployee().GetMiddleName() + "\n");
 			ConsoleService::Write("Адрес сотрудника: " + accounts[i].GetEmployee().GetAddress() + "\n");
